@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="120px" viewBox="0 0 150 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Apple Watch 42mm</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FE9B00" offset="0%"></stop>
+            <stop stop-color="#FF1E00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-Watch-42mm">
+            <g id="dropbox" transform="translate(51.000000, 25.000000)">
+                <rect id="Path" fill="#36B0EF" x="0" y="0" width="48" height="48" rx="6"></rect>
+                <path d="M23.9999648,12.9123629 L16.4466431,6.41666667 L5.6523146,13.6784383 L13.1159503,19.836757 L23.999866,12.9124258 L34.8838386,19.8367932 L42.3478261,13.6784746 L31.5534976,6.4167029 L23.9998241,12.9123991 Z M5.65217391,25.9955467 L13.1161614,19.8368657 L23.9998241,26.7612598 L16.4465024,33.2573184 L5.65217391,25.9955467 Z M23.9998241,26.7613685 L34.8838386,19.8369744 L42.3478261,25.9956555 L31.5534976,33.2574271 L23.9998241,26.7613685 Z M24.0221577,28.1588944 L31.5976372,34.6357468 L34.8393473,32.4549323 L34.8393473,34.8999232 L24.0221577,41.5833333 L13.2049681,34.8999232 L13.2049681,32.4549323 L16.4466782,34.6357468 L24.0221577,28.1588944 Z" id="Fill-1" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

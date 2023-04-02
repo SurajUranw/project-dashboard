@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="120px" viewBox="0 0 150 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Apple Watch 42mm</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="16.34375" cy="23" rx="16.34375" ry="7"></ellipse>
+        <ellipse id="path-2" cx="16.34375" cy="15" rx="16.34375" ry="7"></ellipse>
+        <ellipse id="path-3" cx="16.34375" cy="7" rx="16.34375" ry="7"></ellipse>
+        <ellipse id="path-4" cx="16.34375" cy="23" rx="16.34375" ry="7"></ellipse>
+        <ellipse id="path-5" cx="16.34375" cy="15" rx="16.34375" ry="7"></ellipse>
+        <ellipse id="path-6" cx="16.34375" cy="7" rx="16.34375" ry="7"></ellipse>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-Watch-42mm">
+            <g id="database" transform="translate(59.000000, 45.000000)">
+                <g id="Oval-Copy-2">
+                    <use fill="#757575" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <ellipse stroke="#FFFFFF" stroke-width="2" cx="16.34375" cy="23" rx="17.34375" ry="8"></ellipse>
+                </g>
+                <g id="Oval-Copy">
+                    <use fill="#757575" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <ellipse stroke="#FFFFFF" stroke-width="2" cx="16.34375" cy="15" rx="17.34375" ry="8"></ellipse>
+                </g>
+                <g id="Oval">
+                    <use fill="#757575" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <ellipse stroke="#FFFFFF" stroke-width="2" cx="16.34375" cy="7" rx="17.34375" ry="8"></ellipse>
+                </g>
+            </g>
+            <g id="database" transform="translate(59.000000, 45.000000)">
+                <g id="Oval-Copy-2">
+                    <use fill="#36B0EF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <ellipse stroke="#FFFFFF" stroke-width="2" cx="16.34375" cy="23" rx="17.34375" ry="8"></ellipse>
+                </g>
+                <g id="Oval-Copy">
+                    <use fill="#36B0EF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <ellipse stroke="#FFFFFF" stroke-width="2" cx="16.34375" cy="15" rx="17.34375" ry="8"></ellipse>
+                </g>
+                <g id="Oval">
+                    <use fill="#36B0EF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <ellipse stroke="#FFFFFF" stroke-width="2" cx="16.34375" cy="7" rx="17.34375" ry="8"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

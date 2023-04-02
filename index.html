@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Avenues</title>
+    <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="main.js" defer></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- --------------- Navigation --------------- -->
+    <nav>
+        <div class="nav__container">
+            <a class="nav__img" href="index.html"><img src="./assets/logo.png" alt="Logo"></a> 
+
+            <ul class="nav__menu">
+                <li><a href="#">Menu Item 1</a></li>
+                <li><a href="#">Menu Item 2</a></li>
+                <li><a href="#">Menu Item 3</a></li>
+                <li><a href="#">Menu Item 4</a></li>
+            </ul>
+
+            <button id="open-menu"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    <!-- --------------- Header --------------- -->
+    <header>
+        <div class="container header__container">
+            <div class="header__top">
+                <div class="header__left">
+                    <h2>Create your project</h2>   
+                </div>
+                <span class="header__line">|</span>
+
+                <div class="header__right">
+                    <h5>Project created as: </h5> 
+                    <input class="title-input" type="text" id="edit-title" value="Project_Apr_21 12.30pm" disabled="disabled"> 
+                    <img id="edit-pen" src="./assets/edit.svg" alt="Pen">
+                    <img id="close-edit" src="./assets/close.svg" alt="Close">
+                    <img id="ok-edit" src="./assets/ok.svg" alt="Ok">
+                </div>
+            </div>
+
+            <div class="header__bottom">
+                <span class="active"><i class="fa-solid fa-angle-left"></i></span>
+                <h5 class="active">Dashboard</h4>
+                <span>|</span>
+                <h5>Upload CSV</h4>
+            </div>
+        </div>
+    </header>
+    
+    <!-- --------------- Progress Steps --------------- -->
+    <section class="container progress">
+        <div class="line1"><span class="step step1">Step 1</span></div>
+        <div class="circle1">1</div>
+        <div class="line2"><span class="step step2">Step 2<i class="fa-solid fa-angle-down"></i></span></div>
+        <div class="circle2">2</div>
+        <div class="line3"><span class="step step3">Step 3</span></div> 
+    </section>
+
+    <!-- --------------- Upload Download --------------- -->
+    <section class="upload">
+        <div class="container upload__container">
+            <h5>Upload your CSV file using any of the following services</h5>
+            <div class="download">
+                <img src="./assets/drop-arrow.svg" alt="Drop-Arrow">
+                <h5 class="active">Download a sample CSV file</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------- Browse File --------------- -->
+    <section class="browse">
+        <div class="container2 browse__container">
+            <div class="browse__box browse__active">
+                <input type="file" id="file-input" multiple>
+                <label for="file-input">
+                    <img src="./assets/my-computer.svg" alt="My Computer">
+                    <p>My Computer</p> 
+                </label>
+            </div>
+            <div class="browse__box show-modal1">
+                <img src="./assets/prev-upload.svg" alt="Previous uploads">
+                <p>Previous uploads</p>
+            </div>
+            <div class="browse__box show-modal2">
+                <img src="./assets/salesforce.svg" alt="Salesforce">
+                <p>Salesforce</p>
+            </div>
+            <div class="browse__box show-modal2">
+                <img src="./assets/dropbox.svg" alt="Dropbox">
+                <p>Dropbox</p>
+            </div>
+            <div class="browse__box show-modal2">
+                <img src="./assets/file-transfer.svg" alt="File Transfer">
+                <p>File Transfer</p>
+            </div>
+            <div class="browse__box show-modal2">
+                <img src="./assets/database.svg" alt="Database">
+                <p>Database</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------- Modal-2 ---------- -->
+    <section class="modal2 hidden">
+        <div class="modal2__body">
+            <div class="modal2__tilte">
+                <h4 id="modal2-title">Modal Title</h4>
+                <h5>Coming Soon</h5>
+            </div>
+            <div class="modal2__buttons">
+                <button class="modal__btn1 close-modal2">Cancel</button>
+                <button class="modal__btn2">Proceed</button> 
+            </div>
+        </div>
+    </section>
+    <div class="overlay2 hidden"></div>
+
+    <!-- -------- Modal-1 ---------- -->
+    <section class="modal1 hidden">
+        <div class="modal1__body">
+            <div class="modal1__tilte">
+                <h4>Select from Previous Uploads</h4>
+            </div>
+
+            <div class="table__title">
+                <h4 class="file">File</h4>
+                <h4 class="project">Project</h4>
+            </div>
+
+            <div class="table__data">
+                <div class="data1">
+                    <h5>XYZ_EmployeeDetails.csv</h5>
+                    <p>Updated on: May 15, 2017</p>
+                </div>
+                <div class="data2">
+                    <h5>XYZ Employee Data</h5>
+                    <img class="show-tick hidden" src="./assets/tick.svg" alt="Tick">
+                </div>
+            </div>
+
+            <div class="table__data">
+                <div class="data1">
+                    <h5>ABC_CustomerData.csv</h5>
+                    <p>Updated on: May 08, 2017</p>
+                </div>
+                <div class="data2">
+                    <h5>ABC Customer Info</h5>
+                    <img class="show-tick hidden" src="./assets/tick.svg" alt="Tick">
+                </div>
+            </div>
+
+            <div class="table__data">
+                <div class="data1">
+                    <h5>KLP_EmployeeDetails.csv</h5>
+                    <p>Updated on: April 23, 2017</p>
+                </div>
+                <div class="data2">
+                    <h5>KLP Employee Data</h5>
+                    <img class="show-tick hidden" src="./assets/tick.svg" alt="Tick">
+                </div>
+            </div>
+
+            <div class="table__data">
+                <div class="data1">
+                    <h5>DLF_CustomerData.csv</h5>
+                    <p>Updated on: April 16, 2017</p>
+                </div>
+                <div class="data2">
+                    <h5>DLF Customer Info</h5>  
+                    <img class="show-tick hidden" src="./assets/tick.svg" alt="Tick">
+                </div>
+            </div>
+
+            <div class="modal2__buttons">
+                <button class="modal__btn1 close-modal1">Cancel</button>
+                <button class="modal__btn2">Proceed</button> 
+            </div>
+        </div>
+    </section>
+    <div class="overlay2 hidden"></div>
+    
+    <!-- --------------- Drag Drop --------------- -->
+    <section class="drag-drop">
+        <div class="container2 drag-drop__box">
+            <h5>Drag and drop files here</h5>
+            <div class="drag-drop__progress">
+                <div class="filename">File uploading: filename.csv</div>
+                <div class="percent">81%</div>
+            </div>
+        </div>
+        <div class="btn-detail">
+            <button class="btn btn-primary">Detail</button>
+        </div>
+    </section>
+
+    <!-- --------------- Footer --------------- -->
+    <section class="footer">
+        <div class="container footer__container">
+            <h5>&copy; Suraj Uranw | Email: surajuranw@gmail.com</h5>
+        </div>
+    </section>
+
+</body>
+</html>

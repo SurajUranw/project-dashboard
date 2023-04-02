@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="120px" viewBox="0 0 150 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Apple Watch 42mm</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="13" width="2" height="26"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-Watch-42mm">
+            <g id="previous-uploads" transform="translate(58.000000, 34.000000)">
+                <g id="Group" transform="translate(7.000000, 18.000000)" fill="#757575">
+                    <polygon id="Fill-1" points="10.3465945 0.384615385 0.5 9.10280171 1.63035746 10.3563971 9.50236927 3.15120012 9.50236927 21.0611396 11.18947 21.0611396 11.18947 3.15120012 19.0581076 10.3632009 20.222207 9.13171776"></polygon>
+                    <polygon id="Fill-1-Copy" points="9.50236927 23.0550463 9.50236927 28.8496011 11.18947 28.8496011 11.18947 23.0550463"></polygon>
+                    <polygon id="Fill-1-Copy" points="9.50236927 30.8435078 9.50236927 34.3050463 11.18947 34.3050463 11.18947 30.8435078"></polygon>
+                </g>
+                <g id="Group-3">
+                    <polyline id="Path-3" stroke="#757575" stroke-width="2" points="1 13.3170732 1 0 20 0 33.5 12.8414634 33.5 37.5731707 25.4843902 37.5731707"></polyline>
+                    <polyline id="Path-2" stroke="#757575" stroke-width="2" points="20 0 20 13.3510021 33.5000471 13.3510021"></polyline>
+                    <g id="Rectangle-6">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#757575" stroke-width="1" x="0.5" y="13.5" width="1" height="25"></rect>
+                    </g>
+                    <rect id="Rectangle-6-Copy" stroke="#757575" transform="translate(5.000000, 38.000000) rotate(-90.000000) translate(-5.000000, -38.000000) " x="4.5" y="33.5" width="1" height="9"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
